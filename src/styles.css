@@ -11,11 +11,21 @@ body {
 div {
   width: 100%;
   margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 div li {
   display: flex;
   align-items: center;
+}
+
+div input {
+  width: 200px;
+  margin-bottom: 10px;
+  height:30px;
 }
 
 div li + li {
@@ -33,7 +43,12 @@ button {
   font-size: 14px;
 }
 
+div button {
+  width: 200px;
+}
+
 div li button {
   margin: 0 15px;
   background: #ca4949;
+  width: 100px;
 }
